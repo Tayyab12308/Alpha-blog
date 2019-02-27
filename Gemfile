@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.4'
+ruby '2.5.1'
 
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -10,6 +10,9 @@ gem 'rails', '~> 5.2.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
+
+#Adding Webpacker for Javascript library management
+gem 'webpacker', '~> 4.0.0.rc.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
