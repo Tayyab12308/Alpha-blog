@@ -13,6 +13,9 @@ gem 'bootstrap-will_paginate', '1.0.0'
 
 #Adding Webpacker for Javascript library management
 gem 'webpacker', '~> 4.0.0.rc.7'
+
+#React gem for Rails
+gem 'react-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
