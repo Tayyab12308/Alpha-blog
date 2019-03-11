@@ -10,22 +10,28 @@ $navbar-default-bg: purple;
   letter-spacing: -1px;
   font-weight: bold;
 }
+
 #logo:hover{
   color: #fff;
   text-decoration: none;
 }
+
 .center{
   text-align: center;
 }
 
-.jumbotron{
-  background-image: asset-url("K1.jpg");
+.jumbotron {
+  background: image-url("blog1.jpg");
   background-size: cover;
-  height: 950px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+  background-color: transparent !important;
 }
 
 .jumbotron h1 {
-  color: white;
+  color: #dc0b71;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
